@@ -15,10 +15,10 @@ function App() {
       tech: "Laravel · Html · Css · JavaScript",
       link: "#",
       images: [
-        { src: "/images/starcool4.png" },
-        { src: "/images/starcool2.png" },
-        { src: "/images/starcool3.png" },
-        { src: "/images/starcool1.png" }
+        { src: `${process.env.PUBLIC_URL}/images/starcool4.png` },
+        { src: `${process.env.PUBLIC_URL}/images/starcool2.png` },
+        { src: `${process.env.PUBLIC_URL}/images/starcool3.png` },
+        { src: `${process.env.PUBLIC_URL}/images/starcool1.png` }
       ]
     },
     {
@@ -27,11 +27,11 @@ function App() {
       tech: "Laravel · Html · Css · JavaScript",
       link: "#",
       images: [
-        { src: "/images/sand1.png" },
-        { src: "/images/sand2.png" },
-        { src: "/images/sand3.png" },
-        { src: "/images/sand4.png" },
-        { src: "/images/sand5.png" }
+        { src: `${process.env.PUBLIC_URL}/images/sand1.png` },
+        { src: `${process.env.PUBLIC_URL}/images/sand2.png` },
+        { src: `${process.env.PUBLIC_URL}/images/sand3.png` },
+        { src: `${process.env.PUBLIC_URL}/images/sand4.png` },
+        { src: `${process.env.PUBLIC_URL}/images/sand5.png` }
       ]
     },
     {
@@ -40,12 +40,12 @@ function App() {
       tech: "Laravel · Html · Css · JavaScript",
       link: "#",
       images: [
-        { src: "/images/kot1.png" },
-        { src: "/images/kot2.png" },
-        { src: "/images/kot3.png" },
-        { src: "/images/kot4.png" },
-        { src: "/images/kot5.png" },
-        { src: "/images/kot6.png" }
+        { src: `${process.env.PUBLIC_URL}/images/kot1.png` },
+        { src: `${process.env.PUBLIC_URL}/images/kot2.png` },
+        { src: `${process.env.PUBLIC_URL}/images/kot3.png` },
+        { src: `${process.env.PUBLIC_URL}/images/kot4.png` },
+        { src: `${process.env.PUBLIC_URL}/images/kot5.png` },
+        { src: `${process.env.PUBLIC_URL}/images/kot6.png` }
 
 
 
@@ -57,10 +57,10 @@ function App() {
       tech: "Laravel · Angular",
       link: "#",
       images: [
-        { src: "/images/gym1.jpeg" },
-        { src: "/images/gym2.jpeg" },
-        { src: "/images/gym3.jpeg" },
-        { src: "/images/gym4.jpeg" }
+        { src: `${process.env.PUBLIC_URL}/images/gym1.jpeg` },
+        { src: `${process.env.PUBLIC_URL}/images/gym2.jpeg` },
+        { src: `${process.env.PUBLIC_URL}/images/gym3.jpeg` },
+        { src: `${process.env.PUBLIC_URL}/images/gym4.jpeg` }
       ]
     }
   ];

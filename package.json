@@ -9,15 +9,19 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.26.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -35,5 +39,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jitheshinfo912-creator/jitheshkappilportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jitheshinfo912-creator/jitheshkappilportfolio/issues"
+  },
+  "homepage": "https://jitheshinfo912-creator.github.io/jitheshkappilportfolio"
 }
